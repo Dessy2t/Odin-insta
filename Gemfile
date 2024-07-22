@@ -65,3 +65,11 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+# My Custom Gems
+gem 'devise', '~> 4.8', '>= 4.8.1'
+#gem 'followability', github: 'nejdetkadir/followability', branch: 'main'
+#gem 'rails_admin'
+#gem 'pagy'
+#gem 'active_analytics'
+#gem 'punching_bag'
