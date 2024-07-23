@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-  #get 'users/show'
+
+  resources :likes, only: [:create, :destroy]
   resources :comments
   
   devise_scope :user do
