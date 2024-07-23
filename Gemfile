@@ -68,7 +68,7 @@ end
 
 # My Custom Gems
 gem 'devise', '~> 4.8', '>= 4.8.1'
-#gem 'followability', github: 'nejdetkadir/followability', branch: 'main'
+gem 'followability', github: 'nejdetkadir/followability', branch: 'main'
 #gem 'rails_admin'
 #gem 'pagy'
 #gem 'active_analytics'
