@@ -8,6 +8,10 @@ class PostsController < ApplicationController
     @pagy, @posts = pagy_countless(@posts, items: 7)
   end
 
+  def discover
+     @posts = Post.all
+  end
+
   # GET /posts/1 or /posts/1.json
   def show
     @comment = @post.comments.build
