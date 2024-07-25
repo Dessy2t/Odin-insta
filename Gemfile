@@ -74,3 +74,7 @@ gem 'ransack'
 gem 'pagy'
 #gem 'active_analytics'
 #gem 'punching_bag'
+
+gem "dockerfile-rails", ">= 1.6", :group => :development
+
+gem "aws-sdk-s3", "~> 1.156", :require => false
