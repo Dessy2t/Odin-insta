@@ -1,20 +1,13 @@
-# fly.toml app configuration file generated for odin-insta on 2024-07-25T13:23:45Z
+# fly.toml app configuration file generated for odin-insta on 2024-08-01T16:18:31Z
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
 app = 'odin-insta'
-primary_region = 'ams'
+primary_region = 'lhr'
 console_command = '/rails/bin/rails console'
 
 [build]
-
-[env]
-  DATABASE_URL = 'sqlite3:///data/production.sqlite3'
-
-[[mounts]]
-  source = 'data'
-  destination = '/data'
 
 [http_service]
   internal_port = 3000
@@ -43,7 +36,3 @@ console_command = '/rails/bin/rails console'
   memory = '1gb'
   cpu_kind = 'shared'
   cpus = 1
-
-[[statics]]
-  guest_path = '/rails/public'
-  url_prefix = '/'
