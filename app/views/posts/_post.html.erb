@@ -9,7 +9,7 @@
   </p>
 
   <p>
-    <%#= link_to "", post, class: "post-link", style:"z-index:"%>
+    <%= link_to "", post, class: "post-link", style:"z-index:"%>
   </p>
   <% if user_signed_in? %>
     <% like = current_user.likes.find_by(post: post) %>
@@ -30,5 +30,5 @@
 
 </div>
 <p>
-    <%#= link_to post.user.email, post.user, style:"z-index:" %>
+    <%= link_to post.user.email, post.user, style:"z-index:" %>
   </p>
