@@ -1,6 +1,6 @@
 .post-container
 {
-  background-color: #fff;
+  background-color: #9b9797;
   border: 1px solid #ddd;
   border-radius: 3px;
   margin-bottom: 20px;
@@ -16,9 +16,32 @@
   left: 0;
   z-index: 4;
   opacity: 0;
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(8, 1, 1, 0.1);
 }
 .post-link:hover
 {
   opacity: 0.3;
+}
+
+body {
+  background-color: #8C8C8C; /* Replace with any color code you want */
+}
+
+p {
+  color: #ff5733; /* Orange color */
+}
+
+/* Change color of all h1 elements */
+h1 {
+  color: #433d3d; /* Green color */
+}
+
+/* Change color of elements with a specific class */
+.my-text {
+  color: #010204; /* Dodger blue */
+}
+
+/* Change color of an element with a specific ID */
+#special-text {
+  color: #040107; /* Blue violet */
 }
