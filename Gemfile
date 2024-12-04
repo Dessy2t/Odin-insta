@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-ruby "3.0.0"
+ruby "3.3.1"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.1.3", ">= 7.1.3.4"
@@ -67,13 +67,14 @@ group :test do
 end
 
 # My Custom Gems
-gem 'devise', '~> 4.8', '>= 4.8.1'
+gem 'devise', '~> 4.8', '>= 4.9.0'
 gem 'followability', github: 'nejdetkadir/followability', branch: 'main'
 gem 'ransack'
 gem 'pagy'
 gem 'pg', '~> 1.5', '>= 1.5.7'
 gem 'yaml_db'
-
+gem 'activeadmin', github: 'activeadmin'
 gem "dockerfile-rails", ">= 1.6", :group => :development
+gem "activeadmin", github: 'activeadmin'
 
 gem "aws-sdk-s3", "~> 1.156", :require => false
